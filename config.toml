@@ -1,0 +1,53 @@
+theme = "theanothertheme"
+
+[editor]
+scrolloff = 8
+line-number = "relative"
+cursorline = false
+idle-timeout = 0
+true-color = true
+completion-trigger-len = 1
+auto-pairs = true
+
+[editor.statusline]
+left = ["mode", "file-base-name", "file-modification-indicator",  "spinner"]
+center = []
+right = ["diagnostics", "version-control", "position", "total-line-numbers", "file-encoding", "file-line-ending", "file-type"]
+mode.normal = "WILL ASK"
+mode.insert = "BE GENTLE"
+mode.select = "TO"
+
+[editor.lsp]
+display-messages = true
+display-inlay-hints = false
+
+[editor.cursor-shape]
+insert = "block"
+normal = "block"
+select = "underline"
+
+[editor.file-picker]
+hidden = false
+
+[editor.search]
+smart-case = false
+
+[editor.indent-guides]
+render = false
+# skip-levels = 1
+
+[keys.normal]
+g = { a = "code_action" }
+ret = ["move_line_down", "goto_first_nonwhitespace"]
+X = "extend_line_above"
+D = "delete_char_backward"
+
+[keys.insert]
+up = "no_op"
+down = "no_op"
+left = "no_op"
+right = "no_op"
+pageup = "no_op"
+pagedown = "no_op"
+home = "no_op"
+end = "no_op"

@@ -1,0 +1,130 @@
+"attributes" = { fg = "html_attributes" } # not working?
+"type" = { fg = "type" }
+"type.builtin" = { fg = "type_builtin" }
+"constant" = { fg = "white2" }
+"constant.builtin" = { fg = "const_builtin" }
+"constant.character" = { fg = "escape_keys" }
+"constant.numeric" = { fg = "const_builtin" }
+"string" = { fg = "string" }
+"comment" = { fg = "comment" }
+"variable" = { fg = "white2" }
+"variable.builtin" = { fg = "var_builtin" }
+# "variable.parameter" = { fg = "ruby" }
+# "variable.other" = { fg = "storage" }
+"punctuation" = { fg = "white2" }
+"keyword" = { fg = "white", modifiers = ["bold"] }
+# "keyword.storage" = { fg = "storage" }
+"function" = { fg = "white2" }
+"function.builtin" = { fg = "func_builtin" }
+"tag" = { fg = "white", modifiers = ["bold"] }
+"tag.builtin" = { fg = "tag_builtin", modifiers = ["bold"] } #Working?
+
+"markup.heading.marker" = { fg = "marker" }
+"markup.heading.1" = { fg = "h1" }
+"markup.heading.2" = { fg = "h2" }
+"markup.heading.3" = { fg = "h3" }
+"markup.heading.4" = { fg = "h4" }
+"markup.heading.5" = { fg = "h5" }
+"markup.heading.6" = { fg = "h6" }
+"markup.list" = { fg = "list" }
+"markup.bold" = { modifiers = ["bold"] }
+"markup.italic" = { modifiers = ["italic"] }
+"markup.strikethrough" = { modifiers = ["crossed_out"] }
+"markup.link.url" = { fg = "link_url" }
+"markup.link.label" = { fg = "link_label" }
+"markup.link.text" = { fg = "link_text" }
+"markup.quote" = { fg = "quote" }
+
+"diff.plus" = { fg = "emerald" }
+"diff.minus" = { fg = "ruby" }
+"diff.delta" = { fg = "topaz" }
+
+# Cursor
+"ui.cursor" = { fg = "cursor_fg", bg = "cursor" }
+"ui.cursor.match" = { fg = "cursor_primary" }
+"ui.cursor.primary" = { fg = "cursor_fg", bg = "cursor_primary" }
+# "ui.cursor.primary.insert" = { fg = "cursor_fg", bg = "cursor_primary_ins" }
+"ui.cursor.primary.select" = { fg = "cursor_primary", bg = "g3" }
+"ui.linenr" = { fg = "g3" }
+"ui.linenr.selected" = { fg = "g5" }
+"ui.statusline" = { bg = "g2" }
+"ui.statusline.inactive" = { bg = "g1" }
+# "ui.statusline.separator" = { bg = "g5", fg = "g5" }
+"ui.popup" = { bg = "g2" }
+"ui.help" = { bg = "g2" }
+"ui.menu" = { bg = "g2" }
+"ui.selection" = { bg = "g3" }
+"ui.virtual.indent-guide" = { fg = "g2" }
+"ui.virtual.inlay-hint" = { fg = "g1", bg = "g3" }
+
+warning = { bg = "g2", fg = "warning" }
+error = { bg = "g2", fg = "error" }
+info = { bg = "g2" }
+hint = { bg = "g2" }
+
+"diagnostic.hint" = { underline = { color = "warning", style = "line" } }
+"diagnostic.warning" = { bg = "warning_dark" }
+"diagnostic.error" = { bg = "error_dark" }
+
+
+[palette]
+# Code
+# type = "#00ff99"
+type = "#999966"
+type_builtin = "#999966"
+control = "#FF0099"
+# storage = "#FF66CC"
+comment = "#804000"
+string = "#66ff66"
+white = "#ffffff"
+white2 = "#b3b3b3"
+var_builtin = "#ff5050"
+# const_builtin = "#66ccff" # OLD LITTLE BLUE
+const_builtin = "#ff4d4d" # OLD LITTLE BLUE
+# escape_keys = "#ff3300"
+escape_keys = "#1cbaa2"
+func_builtin = "#990099"
+# html_attributes = "#66ccff" # OLD LITTLE BLUE
+html_attributes = "#ff4d4d" # OLD LITTLE BLUE
+# tag = ""
+tag_builtin = "#ff9933"
+
+# Markup
+marker = "#000066"
+h1 = "#ffffff"
+h2 = "#d9d9d9"
+h3 = "#b3b3b3"
+h4 = "#8c8c8c"
+h5 = "#666666"
+h6 = "#404040"
+list = "#ff6666"
+link_url = "#800033"
+link_text = "#ff0066"
+link_label = "#cc3300"
+quote = "#99ff99"
+
+# Git
+ruby = "#e60000"
+emerald = "#29a329"
+topaz = "#e6e600"
+
+# UI
+g1 = "#1a1a1a"
+g2 = "#333333"
+g3 = "#4d4d4d"
+g4 = "#666666"
+g5 = "#808080"
+cursor = "#ffffcc"
+# cursor_primary = "#e6e600"
+# cursor_primary = "#00ffff" # OLD BLUE
+cursor_primary = "#ff4d4d" # OLD BLUE
+cursor_fg = "#262626"
+# cursor_primary_ins = "#ff0066"
+cursor_primary_ins = "#00ff00"
+warning = "#ffcd1c"
+warning_dark = "#808000"
+error = "#ff0000"
+error_dark = "#660000"
+# stain = "#660000"
+# vomit = "#646600"
+# think = "#000050"
