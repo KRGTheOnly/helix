@@ -36,6 +36,9 @@ smart-case = false
 render = false
 # skip-levels = 1
 
+[editor.soft-wrap]
+enable = true
+
 [keys.normal]
 g = { a = "code_action" }
 ret = ["move_line_down", "goto_first_nonwhitespace"]
