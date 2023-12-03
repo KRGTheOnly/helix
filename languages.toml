@@ -90,21 +90,3 @@ indent = { tab-width = 4, unit = "    " }
 name = "html"
 file-types = ["html"]
 indent = { tab-width = 4, unit = "    " }
-
-[[language]]
-name = "astro"
-file-types = ["astro"]
-scope = "source.astro"
-injection-regex = "astro"
-indent = { tab-width = 4, unit = "    " }
-roots = ["package.json", "astro.config.mjs"]
-# language-server = { command = "astro-ls", args = ["--stdio"] }
-# config = { "typescript" = { serverPath = "/home/krg/OneFolder/Projects/astro-test-blog/node_modules/typescript/lib/tsserverlibrary.js" }, "environment" = "node" }
-# config = { "typescript" = { serverPath = "/usr/local/lib/node_modules/typescript/lib/tsserverlibrary.js" }, "environment" = "node" }
-# config = { "typescript" = { serverPath = "/home/user/path_to_my_project/node_modules/typescript/lib/tsserverlibrary.js" }, "environment" = "node" }
-
-# Reference
-# language-server = { command = "v" }
-# language-server = { command = "pylsp", args = ["--tcp"] }
-# language-server = { command = "pylsp" }
-# language-server = { command = "pyright-langserver", args = ["--stdio"] }
